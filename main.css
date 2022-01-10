@@ -1,0 +1,250 @@
+* {
+  font-family: "Bakbak One", cursive;
+  box-sizing: border-box;
+  padding: 0px;
+  user-select: none;
+}
+.container {
+  padding: 9px;
+  box-shadow: 0px 0px 6px 0px rgb(133, 5, 5);
+  -webkit-box-shadow: 0px 0px 10px 0px rgb(192, 19, 192);
+  /* background-color: blue; */
+  /* background-image: linear-gradient(to right, rgb(179, 221, 81), #f06d06); */
+  background-image: linear-gradient(to right, rgb(24, 160, 223), #3d369b);
+  /* background-image: linear-gradient(to right, rgb(90, 82, 211), #1d4b77); */
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgba(52, 79, 99, 0.89);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  margin-bottom: 3px;
+}
+
+li {
+  display: inline;
+  padding: 30px;
+}
+li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+li a:hover {
+  color: red;
+}
+.slider-content {
+  text-align: center;
+  margin-top: 0px;
+}
+.slider-content img {
+  height: calc(100vh - 80px);
+}
+.numbertext {
+  color: rgb(227, 225, 231);
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.text {
+  color: rgb(239, 237, 243);
+  font-size: 30px;
+  position: absolute;
+  top: 80%;
+  left: 46%;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+button:link,
+button:visited,
+.next,
+.stop,
+.play,
+.prev {
+  padding: 1px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.048);
+  text-decoration: none;
+  display: block;
+  position: absolute;
+  bottom: 350px;
+  margin-top: -50px;
+  cursor: pointer;
+  transition: 0.8s ease;
+  font-weight: bold;
+  font-size: 50px;
+  border: transparent;
+}
+.next {
+  position: absolute;
+  right: 0.9%;
+}
+.stop {
+  bottom: 5%;
+  margin-left: 80%;
+}
+.play {
+  bottom: 5%;
+  margin-left: 20%;
+}
+button:hover,
+button:active {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.products-buttons {
+  width: 400px;
+  height: 150px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: rgba(19, 192, 178, 0.623);
+  color: #000b49;
+  transition: all 0.8s ease;
+  font-size: 25px;
+}
+.products-buttons:hover {
+  background-color: #dfd3c3;
+  color: #519259;
+}
+.buttons-container {
+  display: flex;
+  margin: 20px 0px;
+  text-align: center;
+  background-color: rgba(108, 13, 163, 0.76);
+}
+
+.cart-style {
+  width: 300px;
+  background-color: rgba(185, 128, 231, 0.678);
+  border-radius: 10px;
+}
+.cart-style:hover {
+  background-color: rgb(240, 128, 23);
+}
+
+.swr-l-htzhr {
+  background-image: url(./products\ background\ images.jpg);
+  background-repeat: repeat;
+  /* background-color: rgba(240, 240, 243, 0.767); */
+  text-align: center;
+}
+.products-shown-list {
+  display: inline-block;
+  width: 45%;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid rgba(223, 9, 9, 0.418);
+  border-radius: 5px;
+}
+.products-shown-list button {
+  font-size: 30px;
+  margin: 5px;
+  background-color: rgba(180, 41, 41, 0.082);
+  border: transparent;
+  transition: 0.9 ease;
+}
+.products-shown-list button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.products-shown-list i {
+  color: #e02401;
+}
+.products-shown-list i:hover {
+  color: green;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(2, 2, 2);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 6px 0px rgb(133, 5, 5);
+  -webkit-box-shadow: 0px 0px 10px 0px rgb(192, 19, 192);
+  border-radius: 5px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+#myBtn:hover {
+  background-color: #555;
+}
+
+.icons3 {
+  text-align: left;
+  font-size: 90px;
+  padding: 20px;
+}
+
+#closer {
+  color: rgb(20, 226, 226);
+  cursor: pointer;
+}
+
+#closer :hover {
+  color: #e52165;
+}
+
+.closeup {
+  margin: 5px;
+}
+
+i {
+  color: rgb(18, 118, 233);
+}
+i:hover {
+  cursor: pointer;
+  color: #e52165;
+}
+
+.addup:hover {
+  background-color: tomato;
+}
+footer a {
+  margin: 5px;
+}
+footer img {
+  border-radius: 15px;
+}
+.swr-l-htzhr button:hover {
+  color: rgb(16, 216, 16);
+}
+
+.rotating {
+  animation: hmada 2s infinite linear;
+  display: inline-block;
+}
+
+.klam-kter {
+  padding: 15px;
+  margin: 10px;
+  color: #121212;
+}
+@keyframes hmada {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
